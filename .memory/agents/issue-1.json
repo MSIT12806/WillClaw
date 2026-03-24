@@ -1,0 +1,39 @@
+{
+  "generatedAt": "2026-03-24T20:19:28.440Z",
+  "repository": "MSIT12806/WillClaw",
+  "issue": {
+    "number": 1,
+    "title": "Issue #1",
+    "url": "https://github.com/MSIT12806/WillClaw/issues/1",
+    "state": "open",
+    "author": "MSIT12806",
+    "labels": [],
+    "assignees": [],
+    "participants": [
+      "MSIT12806"
+    ],
+    "commentCount": 0,
+    "updatedAt": "2026-03-22T03:35:28.000Z"
+  },
+  "summary": {
+    "status": "資訊不明 - Issue 仍為 open，缺乏內容與討論，無法判斷進度",
+    "recentActivity": [
+      "目前尚未有任何對話或執行紀錄可供整理。"
+    ],
+    "decisions": [
+      "尚未確定任何決策，需等待主人提供需求說明。"
+    ],
+    "completedWork": [
+      "目前沒有可確認的已完成工作。"
+    ],
+    "openTasks": [
+      "等待主人提供 Issue 具體目標與需求。"
+    ],
+    "preferences": [
+      "目前沒有可確認的偏好設定。"
+    ],
+    "openLoops": [
+      "等待主人提供 Issue 具體目標與需求。"
+    ]
+  }
+}
