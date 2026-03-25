@@ -1,0 +1,42 @@
+{
+  "generatedAt": "2026-03-25T20:18:35.945Z",
+  "window": {
+    "repository": "MSIT12806/WillClaw",
+    "issueState": "all",
+    "issueLimit": 100,
+    "sinceDays": 30
+  },
+  "counts": {
+    "consideredIssues": 1,
+    "openIssues": 1,
+    "closedIssues": 0
+  },
+  "topLabels": [],
+  "agentFiles": [
+    {
+      "issueNumber": 1,
+      "issueUrl": "https://github.com/MSIT12806/WillClaw/issues/1",
+      "title": "Issue #1",
+      "relativePath": "agents/issue-1.json"
+    }
+  ],
+  "sections": {
+    "agentActivity": [
+      "**Issue #1**",
+      "🦞 這隻小龍蝦發現今天的任務仍在「資訊不明」的海域漂流，沒有任何新對話或回覆。",
+      "🦞 目前唯一的動作是提醒主人：*「請說明 Issue 目標與需求」*，以便我們能夠揚帆前進。"
+    ],
+    "crossIssueThemes": [
+      "**資訊缺口**：所有可見的 agents（此刻僅 #1）都在等待更具體的需求說明，導致無法展開實際工作。",
+      "**需求澄清**：需要主人提供明確的目標、範圍與偏好，才能讓龍蝦群開始分工合作。"
+    ],
+    "decisions": [
+      "目前沒有任何決策產生。所有決策都必須等主人提供需求細節後才能形成。"
+    ],
+    "openLoops": [
+      "**#1** – 仍缺乏目標與需求說明，開放迴路持續存在。",
+      "**整體** – 需要主人在本日或近期內補齊需求資訊，否則其他潛在 issue 也會因資訊不足而無法啟動。"
+    ]
+  },
+  "summarySource": "llm-refine"
+}
