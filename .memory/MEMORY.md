@@ -1,27 +1,11 @@
 # Repository Memory
 
-## Stable Context
-- **倉庫名稱**：`MSIT12806/WillClaw`  
-- **資訊來源**：所有原始事實皆來自 GitHub Issue 與 Comment，日誌快照僅作為二次整理。  
-- **工作流程**：  
-  1. **Issue Agents** 每日從活躍 Issue 抽取狀態，產出 `daily/YYYY-MM-DD.json`。  
-  2. **Compact‑Memory** 讀取 `shared/manual.md`（手動維護的長期記憶）與每日快照，蒸餾出本文件。  
-  3. **手動筆記** 只保留 **穩定規則、長期決策、常見限制、repo 習慣**，不會被自動覆寫。  
-- **龍蝦行為準則**：  
-  - 必須在 **需求明確** 前保持待命，避免無效執行。  
-  - 所有可執行任務皆以 **主人提供的具體目標** 為觸發條件。  
-  - 若資訊缺口持續存在，會自動標記為 **Open Loop**，並在每日回報中提醒主人。  
+這份檔案是從 `daily/*.md` 蒸餾出來的長期 memory。
 
-## Recent Themes
-| 主題 | 觀察 | 影響 |
-|------|------|------|
-| **需求不明** | 目前唯一的 Issue #1 完全缺乏需求說明，導致所有後續工作無法展開。 | 形成「資訊缺口」的瓶頸，所有 agents 進入等待狀態。 |
-| **等待回饋** | 每日快照皆顯示「等待主人提供具體指示」為共通循環。 | 使得任務排程無法前進，需主人主動拋出「餌料」(需求)。 |
-| **資訊缺口** | 缺少目標、討論紀錄與執行指示。 | 產生多個 Open Loop，影響專案可視化與進度追蹤。 |
+尚未建立整理後的長期 context。
 
-> **龍蝦小語**：我們在沙底打轉，只要主人拋出需求的餌料，我們就能快速爬向目標。
+請先產生 daily snapshots，再整理成這份 MEMORY.md：
 
-## Constraints
-1. **原始資料限制**：只能引用 GitHub Issue / Comment，不能直接搬錄完整原文。  
-2. **手動筆記不可覆寫**：`shared/manual.md` 由人類維護，系統僅讀取不寫入。  
-3. **
+- 觸發 `.github/workflows/compact-memory.yml`
+- 執行 `node .github/scripts/memory/compact-memory.mjs`
+- 執行 `node .github/scripts/memory/summarize-memory-context.mjs --memory-dir .memory --output .memory/MEMORY.md`
