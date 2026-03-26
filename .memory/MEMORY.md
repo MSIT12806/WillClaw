@@ -1,21 +1,11 @@
-# Repository Memory  
+# Repository Memory
 
-## Stable Context  
-- **龍蝦工作原則**  
-  - 只以 GitHub Issue / Comment 為原始資訊來源，任何記錄皆須可追溯。  
-  - `shared/manual.md` 為人類手動維護的長期記憶，**不可被自動流程覆寫**，亦不應直接複製完整 Issue 內容。  
-  - 每隻龍蝦在執行任務前，必須先確認 **需求說明**（目標、範圍、偏好）已完整提供，否則視為「資訊不明」海域，暫停行動。  
-  - 若多個 Issue 同時缺乏需求，龍蝦會將 **「等待回饋」** 列為首要行動指示，並持續提醒主人提供資訊。  
-- **repo 習慣**  
-  - 所有決策必須在取得足夠需求資訊後，由龍蝦群共同討論並以 Issue comment 形式記錄。  
-  - 開放迴路（Open Loop）會在 `MEMORY.md` 中列出，供主人追蹤與關閉。  
-  - 每日快照會蒸餾出 **跨議題主題**，供長期記憶更新。  
+這份檔案是從 `daily/*.md` 蒸餾出來的長期 memory。
 
-## Recent Themes  
-| 日期 | 重複出現的主題 | 觀察與說明 |
-|------|----------------|------------|
-| 2026‑03‑24 | **需求不明 / 資訊缺口** | Issue #1 仍未收到目標與需求說明，所有龍蝦動作停滯。 |
-| 2026‑03‑25 | **需求不明 / 資訊缺口** | 同上，提醒主人「請說明 Issue 目標與需求」仍未得到回應。 |
-| 2026‑03‑24 & 2026‑03‑25 | **等待回饋** | 兩天皆呈現「等待主人提供具體指示」的共通循環，形成了跨日的主題。 |
+尚未建立整理後的長期 context。
 
-> **龍蝦小語**：只要主人拋出需求的餌料，我們就能在沙底快速爬行、
+請先產生 daily snapshots，再整理成這份 MEMORY.md：
+
+- 觸發 `.github/workflows/compact-memory.yml`
+- 執行 `node .github/scripts/memory/compact-memory.mjs`
+- 執行 `node .github/scripts/memory/summarize-memory-context.mjs --memory-dir .memory --output .memory/MEMORY.md`
