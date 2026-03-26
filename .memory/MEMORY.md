@@ -1,11 +1,32 @@
 # Repository Memory
 
-這份檔案是從 `daily/*.md` 蒸餾出來的長期 memory。
+## Stable Context
+- **Issue 建立慣例**  
+  - 必須使用完整的 Issue 模板，至少包含 **標題、背景、目標、驗收條件**。  
+  - 若缺少上述任一欄位，龍蝦們會將該 Issue 標記為 *資訊缺口*，並暫停任何後續行動。  
+- **龍蝦工作流程**  
+  - 只要 Issue 內容不明確，所有 agents 皆保持 **等待回饋** 狀態，直至主人提供足夠資訊。  
+  - 在收到完整需求前，決策、任務分配與執行均不會產生。  
+- **資料來源與更新**  
+  - 原始資訊皆來自 GitHub Issue / Comment。  
+  - `shared/manual.md` 為手動維護的長期記憶，**不會被自動覆寫**。  
+- **系統參數**（供參考）  
+  - Issue 觀察範圍：最近 30 天、最多 100 筆。  
+  - 只關注 **open** 與 **closed** 兩種狀態的 Issue。  
 
-尚未建立整理後的長期 context。
+## Recent Themes
+- **資訊缺口持續出現**  
+  - 連續三天（2026‑03‑24 ~ 2026‑03‑26）唯一的 Issue #1 均缺乏需求說明，導致所有 agents 無法展開工作。  
+- **需求澄清需求**  
+  - 龍蝦們一致建議在建立 Issue 時即使用 **標準模板**，以減少「資訊不明」的情況。  
+- **等待回饋的循環**  
+  - 每日快照皆顯示 agents 正在提醒主人「請說明 Issue 目標與需求」，但尚未收到回應。  
 
-請先產生 daily snapshots，再整理成這份 MEMORY.md：
+## Constraints
+- **缺乏具體需求**：目前無法進行需求分析、任務分配或任何實作。  
+- **決策依賴資訊完整度**：所有決策必須在需求完整後才能產生，故目前無可記錄的決策。  
+- **模板未被使用**：現有 Issue 未遵循模板，造成資訊缺口，這是目前唯一的限制因素。  
 
-- 觸發 `.github/workflows/compact-memory.yml`
-- 執行 `node .github/scripts/memory/compact-memory.mjs`
-- 執行 `node .github/scripts/memory/summarize-memory-context.mjs --memory-dir .memory --output .memory/MEMORY.md`
+## Open Loops
+- **Issue #1**  
+  - 仍缺

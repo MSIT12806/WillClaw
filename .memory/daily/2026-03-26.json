@@ -1,0 +1,48 @@
+{
+  "generatedAt": "2026-03-26T20:16:02.608Z",
+  "window": {
+    "repository": "MSIT12806/WillClaw",
+    "issueState": "all",
+    "issueLimit": 100,
+    "sinceDays": 30
+  },
+  "counts": {
+    "consideredIssues": 1,
+    "openIssues": 1,
+    "closedIssues": 0
+  },
+  "topLabels": [],
+  "agentFiles": [
+    {
+      "issueNumber": 1,
+      "issueUrl": "https://github.com/MSIT12806/WillClaw/issues/1",
+      "title": "Issue #1",
+      "relativePath": "agents/issue-1.json"
+    }
+  ],
+  "sections": {
+    "agentActivity": [
+      "**Issue #1**",
+      "**狀態**：`open`，資訊仍屬於「未知」階段。",
+      "**最近活動**：2026‑03‑22 建立 Issue，僅留下標題，尚未有任何回覆或討論。",
+      "**已完成工作**：目前無可確認的完成項目。",
+      "**我們的龍蝦們**："
+    ],
+    "crossIssueThemes": [
+      "**資訊缺口**：本日唯一的 Issue 皆因缺乏具體描述而無法推進，顯示需要在建立 Issue 時即提供完整需求。",
+      "**需求收斂**：若未來有更多 Issue，建議在建立時使用模板（如 `title、背景、目標、驗收條件`）以減少類似資訊不明的情況。"
+    ],
+    "decisions": [
+      "目前 **無任何決策** 可記錄。",
+      "龍蝦群已決議：**等待作者補充 Issue 內容** 後再進行需求分析與任務分配。"
+    ],
+    "openLoops": [
+      "**#1** – 請作者在本週內補充 Issue 內容與目標，包含：",
+      "1. 問題背景與動機",
+      "2. 預期成果或交付物",
+      "3. 任何相關的限制或前置條件",
+      "若作者未於 3"
+    ]
+  },
+  "summarySource": "llm-refine"
+}
