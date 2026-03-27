@@ -1,11 +1,20 @@
 # Repository Memory
 
-這份檔案是從 `daily/*.md` 蒸餾出來的長期 memory。
+## Stable Context
+- **資訊來源**：所有可執行的任務皆必須以 GitHub Issue（含標題、描述、驗收條件）為唯一真實來源。  
+- **工作流程**：  
+  1. **Issue 建立** → 必須使用完整模板（`title、背景、目標、驗收條件`） → 代理人自動抓取。  
+  2. **需求確認** → 若缺少任何欄位，代理人會標記為 *資訊缺口*，並等待主人補充。  
+  3. **決策與分工** → 只有在需求完整且得到主人確認後，才會產生決策、分配任務。  
+- **溝通渠道**：Telegram、Slack 等即時訊息可作為補充說明，但所有正式需求必須回寫至 Issue。  
+- **手動筆記**：`shared/manual.md` 只保存 **長期規則、決策、限制**，不會被自動覆寫；代理人會參考此檔案以維持一致性。  
+- **代理人行為準則**：  
+  - 不自行假設需求或決策。  
+  - 只在資訊完整時才產出 *Open Loops*、*Decisions*。  
+  - 若多個 Issue 同時出現，會自動偵測跨議題共通點（如「需求缺失」）並提出建議。  
 
-尚未建立整理後的長期 context。
-
-請先產生 daily snapshots，再整理成這份 MEMORY.md：
-
-- 觸發 `.github/workflows/compact-memory.yml`
-- 執行 `node .github/scripts/memory/compact-memory.mjs`
-- 執行 `node .github/scripts/memory/summarize-memory-context.mjs --memory-dir .memory --output .memory/MEMORY.md`
+## Recent Themes
+| 主題 | 觀察次數 | 具體描述 |
+|------|----------|----------|
+| **資訊缺口 / 需求不明** | 4 天 (3/24‑3/27) | 唯一的 Issue #1 自 3/22 建立以來，始終缺乏背景、目標與驗收條件，導致所有代理人無法展開工作。 |
+| **等待回饋** | 4 天 | 每日快照皆提醒「等待主人提供需求」；代理
