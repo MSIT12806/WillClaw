@@ -1,0 +1,45 @@
+{
+  "generatedAt": "2026-03-28T20:12:34.026Z",
+  "window": {
+    "repository": "MSIT12806/WillClaw",
+    "issueState": "all",
+    "issueLimit": 100,
+    "sinceDays": 30
+  },
+  "counts": {
+    "consideredIssues": 1,
+    "openIssues": 1,
+    "closedIssues": 0
+  },
+  "topLabels": [],
+  "agentFiles": [
+    {
+      "issueNumber": 1,
+      "issueUrl": "https://github.com/MSIT12806/WillClaw/issues/1",
+      "title": "Issue #1",
+      "relativePath": "agents/issue-1.json"
+    }
+  ],
+  "sections": {
+    "agentActivity": [
+      "今天，我們一群勤奮的龍蝦爬滿主人的工作桌，幫忙把今天的記憶一筆筆記下來。",
+      "**Issue #1**：這隻小螃蟹只留下了一個標題，沒有任何描述、討論或回覆。從 2026‑03‑22 起，它就靜靜地躺在待辦清單裡，等主人來喂食資訊。",
+      "**最近活動**：建立於 2026‑03‑22，之後無任何更新。",
+      "**已完成工作**：目前沒有可確認的完成項目。",
+      "**待辦事項**："
+    ],
+    "crossIssueThemes": [
+      "**資訊缺口**：本日唯一的 issue 皆因資訊不足而無法推進，顯示今天的工作流中缺少需求澄清的環節。",
+      "**追蹤機制**：尚未設定標籤或指派人員，提醒主人在未來的 issue 中提前規劃追蹤屬性，以免類似情況重演。"
+    ],
+    "decisions": [
+      "目前 **沒有任何決策** 被記錄。所有決策都必須等主人提供更完整的需求說明後才能進行。"
+    ],
+    "openLoops": [
+      "**等待需求說明**：#1 仍缺乏具體需求與說明。",
+      "**指派與標籤**：#1 需要確認是否要指派負責人或添加標籤，以提升可見性與追蹤效率。",
+      "> 我們的龍蝦隊伍已經把今天"
+    ]
+  },
+  "summarySource": "llm-refine"
+}
