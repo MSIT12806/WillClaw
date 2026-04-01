@@ -1,0 +1,47 @@
+{
+  "generatedAt": "2026-04-01T20:20:30.338Z",
+  "window": {
+    "repository": "MSIT12806/WillClaw",
+    "issueState": "all",
+    "issueLimit": 100,
+    "sinceDays": 30
+  },
+  "counts": {
+    "consideredIssues": 1,
+    "openIssues": 1,
+    "closedIssues": 0
+  },
+  "topLabels": [],
+  "agentFiles": [
+    {
+      "issueNumber": 1,
+      "issueUrl": "https://github.com/MSIT12806/WillClaw/issues/1",
+      "title": "Issue #1",
+      "relativePath": "agents/issue-1.json"
+    }
+  ],
+  "sections": {
+    "agentActivity": [
+      "**🦞 Issue #1**",
+      "**狀態**：資訊不明，缺乏具體內容與指示。",
+      "**近期活動**：無可整理的活動紀錄。",
+      "**已完成工作**：目前尚無可確認的完成項目。",
+      "**待辦事項**："
+    ],
+    "crossIssueThemes": [
+      "1. **資訊缺口**",
+      "多數未提供具體需求的 issue（如 #1）都卡在「等待主人補充」的環節，形成資訊斷層。",
+      "2. **需求澄清**",
+      "需要明確的目標、範圍與優先順序，才能讓龍蝦們展開爪子去執行。",
+      "3. **工作流啟動**"
+    ],
+    "decisions": [
+      "**尚未作出任何決策**。根據 #1 的摘要，仍需主人提供需求說明才能進行規劃與決策。",
+      "**建議**：先集中整理所有待補資訊的 issue，形成需求清單，再依優先度排程。"
+    ],
+    "openLoops": [
+      "目前沒有待追蹤的 open loops。"
+    ]
+  },
+  "summarySource": "llm-refine"
+}
