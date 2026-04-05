@@ -1,0 +1,45 @@
+{
+  "generatedAt": "2026-04-05T20:13:16.083Z",
+  "window": {
+    "repository": "MSIT12806/WillClaw",
+    "issueState": "all",
+    "issueLimit": 100,
+    "sinceDays": 30
+  },
+  "counts": {
+    "consideredIssues": 1,
+    "openIssues": 1,
+    "closedIssues": 0
+  },
+  "topLabels": [],
+  "agentFiles": [
+    {
+      "issueNumber": 1,
+      "issueUrl": "https://github.com/MSIT12806/WillClaw/issues/1",
+      "title": "Issue #1",
+      "relativePath": "agents/issue-1.json"
+    }
+  ],
+  "sections": {
+    "agentActivity": [
+      "🦞 **龍蝦一號** 把目光投向 **#1**，發現這顆螃蟹還在沙灘上打滾，資訊仍是「不明」狀態。",
+      "最近沒有任何對話或回覆，彷彿潮汐尚未把它沖上岸。",
+      "目前沒有可確認的已完成工作，所有的爪子都在等待主人提供更具體的需求。"
+    ],
+    "crossIssueThemes": [
+      "**資訊缺口**：本日唯一的 issue（#1）仍缺乏目標、需求與交付說明，導致所有龍蝦都無法展開實際的抓取與搬運工作。",
+      "**需求澄清**：需要先釐清「到底要抓什麼」才能分配負責人、排程與資源。這是今天所有龍蝦共同感受到的潮汐訊號。"
+    ],
+    "decisions": [
+      "目前 **沒有任何決策** 被正式記錄。",
+      "龍蝦們一致同意：**等待主人提供具體目標與需求** 後，再進行分配與執行。"
+    ],
+    "openLoops": [
+      "請主人 **提供 Issue #1 的具體目標與需求**。",
+      "確認是否需要 **指派負責人**。",
+      "釐清 **預期交付成果**（交付物、時程、驗收標準）。",
+      "> 龍蝦群已將這些未完成的環節緊緊抓住，等待潮水退去後再一起搬運。若有新資訊或其他 issue 請即時告知，我們會立刻伸出鉗子協助。"
+    ]
+  },
+  "summarySource": "llm-refine"
+}
