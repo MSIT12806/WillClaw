@@ -1,0 +1,41 @@
+{
+  "generatedAt": "2026-04-08T20:20:27.763Z",
+  "window": {
+    "repository": "MSIT12806/WillClaw",
+    "issueState": "all",
+    "issueLimit": 100,
+    "sinceDays": 30
+  },
+  "counts": {
+    "consideredIssues": 1,
+    "openIssues": 1,
+    "closedIssues": 0
+  },
+  "topLabels": [],
+  "agentFiles": [
+    {
+      "issueNumber": 1,
+      "issueUrl": "https://github.com/MSIT12806/WillClaw/issues/1",
+      "title": "Issue #1",
+      "relativePath": "agents/issue-1.json"
+    }
+  ],
+  "sections": {
+    "agentActivity": [
+      "今天，我們一群忙碌的龍蝦爬滿了主人的工作海床，為主人記錄下每一隻爪子留下的痕跡。",
+      "**Issue #1**：目前仍在深海中漂浮，資訊不明。龍蝦們在檢視最近的活動時，只看到「沒有足夠資訊可整理近期活動」。因此，這隻 Issue 目前沒有任何已完成的工作，也沒有明確的決策可供報告。"
+    ],
+    "crossIssueThemes": [
+      "**資訊缺口**：唯一可觀察到的主題是「資訊不足」——所有的爪子都在等待主人投下更多的線索與需求說明。若未來有其他 Issue 出現，預期也會因缺乏上下文而產生相同的資訊缺口。"
+    ],
+    "decisions": [
+      "目前 **無** 可報告的決策。龍蝦們正靜靜等待主人指示，才能把爪子伸向下一步的行動。"
+    ],
+    "openLoops": [
+      "請主人 **補充 Issue #1 的內容與目標**，讓我們能夠辨識此 Issue 是新功能、Bug，或是其他類別。",
+      "確認此 Issue 是否屬於 **新功能、Bug 或其他類別**，以便我們安排後續的爪子工作。",
+      "> 龍蝦群已將這些未完成的環節緊緊抓住，期待主人投下更多資訊的餌，讓我們一起把今天的記憶完整捕捉。"
+    ]
+  },
+  "summarySource": "llm-refine"
+}
