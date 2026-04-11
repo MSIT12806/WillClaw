@@ -1,0 +1,47 @@
+{
+  "generatedAt": "2026-04-11T20:12:42.789Z",
+  "window": {
+    "repository": "MSIT12806/WillClaw",
+    "issueState": "all",
+    "issueLimit": 100,
+    "sinceDays": 30
+  },
+  "counts": {
+    "consideredIssues": 1,
+    "openIssues": 1,
+    "closedIssues": 0
+  },
+  "topLabels": [],
+  "agentFiles": [
+    {
+      "issueNumber": 1,
+      "issueUrl": "https://github.com/MSIT12806/WillClaw/issues/1",
+      "title": "Issue #1",
+      "relativePath": "agents/issue-1.json"
+    }
+  ],
+  "sections": {
+    "agentActivity": [
+      "**Issue #1**",
+      "今日，我們這群勤奮的龍蝦先爬上了 Issue #1 的海底洞窟，發現裡面只有一個空白的說明，沒有任何可供我們抓取的資訊。",
+      "我們檢查了最近的活動紀錄，只有「龍蝦檢視了 Issue #1」以及「確認目前沒有任何回覆或任務紀錄」兩筆。",
+      "目前尚未看到任何已完成的工作，亦沒有任何決策被記錄。"
+    ],
+    "crossIssueThemes": [
+      "由於今天僅有單一 Issue（#1）且內容缺乏細節，暫時無法辨識跨議題的共同主題或趨勢。",
+      "若未來有更多 Issue 出現，請留意是否會出現「需求不明」或「資訊缺失」的共通問題，我們的龍蝦隊伍會即時提醒主人。"
+    ],
+    "decisions": [
+      "**尚未作出任何決策**。",
+      "需要主人提供 Issue #1 的具體描述與目標，才能進一步制定執行計畫與時間表。"
+    ],
+    "openLoops": [
+      "1. **補充 Issue #1 的具體描述與目標**",
+      "請主人在 Issue #1 中填寫需求、預期成果或任何相關背景資訊。",
+      "2. **制定執行計畫與時間表**",
+      "待收到完整需求後，我們的龍蝦將協助拆解任務、排程並追蹤進度。",
+      "> 我們的龍蝦群已將今天的觀察與未完成的環節記錄於此，期待主人盡快提供更多資訊，讓我們能繼續為您捕捉每日的進展與成果。"
+    ]
+  },
+  "summarySource": "llm-refine"
+}
