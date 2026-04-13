@@ -1,0 +1,45 @@
+{
+  "generatedAt": "2026-04-13T20:27:19.515Z",
+  "window": {
+    "repository": "MSIT12806/WillClaw",
+    "issueState": "all",
+    "issueLimit": 100,
+    "sinceDays": 30
+  },
+  "counts": {
+    "consideredIssues": 1,
+    "openIssues": 1,
+    "closedIssues": 0
+  },
+  "topLabels": [],
+  "agentFiles": [
+    {
+      "issueNumber": 1,
+      "issueUrl": "https://github.com/MSIT12806/WillClaw/issues/1",
+      "title": "Issue #1",
+      "relativePath": "agents/issue-1.json"
+    }
+  ],
+  "sections": {
+    "agentActivity": [
+      "**Issue #1**",
+      "🦞 今日清晨，我們的第一隻龍蝦在 2026‑03‑22 03:35 檢查到此 Issue 仍是 **open**，但內容只有標題，缺乏具體描述與討論。",
+      "🦞 之後沒有收到任何新訊息或回覆，龍蝦們只能把這個空白的紙條暫時放在記憶盒裡，等待主人提供更多指示。",
+      "> **備註**：其餘的 issue agents（若有）在過去 30 天內皆未出現可供整理的活動紀錄，故此段落僅列出唯一可辨識的 #1。"
+    ],
+    "crossIssueThemes": [
+      "目前所有可見的 Issue 均缺乏實質內容，導致 **資訊不足** 成為唯一的跨議題主題。",
+      "需要主人提供更明確的需求、目標或背景說明，才能讓龍蝦們展開協作。"
+    ],
+    "decisions": [
+      "**尚未形成任何決策**。根據 #1 的摘要，仍在等待主人說明需求與目標。",
+      "若主人在未來提供具體指示，龍蝦們將立即記錄決策並更新此段落。"
+    ],
+    "openLoops": [
+      "**#1**：資訊不明，缺少描述與討論，仍是 open 狀態。",
+      "其他潛在的 Issue 目前無法辨識是否存在未解議題，故暫列為「資訊不足」的開放迴路。",
+      "> **龍蝦的呼籲**：主人，請為我們的空白紙條填上文字，讓我們能夠更好地協助您記錄與"
+    ]
+  },
+  "summarySource": "llm-refine"
+}
